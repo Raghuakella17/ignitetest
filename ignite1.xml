@@ -67,15 +67,4 @@
             </property>
         </bean>
     </property>
-
-    <!--
-    Explicitly configure TCP communication SPI changing local
-    port number for the nodes from the first cluster.
-    -->
-    <property name="communicationSpi">
-        <bean class="org.apache.ignite.spi.communication.tcp.TcpCommunicationSpi">
-            <property name="localPort" value="47100"/>
-        </bean>
-    </property>
-</bean>
 </beans>  
