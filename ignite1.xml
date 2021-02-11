@@ -36,6 +36,17 @@
                         Enables Kubernetes IP finder with default settings.
                     -->
                     <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.vm.TcpDiscoveryVmIpFinder">
+                          <property name="addresses">
+                                 							<list>
+								                                   <value>127.0.0.1</value>
+								<!-- for cluster please uncomment and add physical IPs of the nodes in the cluster 
+								e.g like this below.
+								<list>
+									<value>10.0.0.11</value>
+									<value>10.0.0.18</value> 
+								</list> 
+								-->
+							                                </list>
                 </property>
             </bean>
         </property>
