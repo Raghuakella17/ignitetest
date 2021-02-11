@@ -74,7 +74,7 @@
         </property>
     </bean>
 </beans>
- Explicitly configure TCP communication SPI changing local
+ <!--Explicitly configure TCP communication SPI changing local
     port number for the nodes from the first cluster.
     -->
     <property name="communicationSpi">
