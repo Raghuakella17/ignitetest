@@ -44,7 +44,7 @@
     <property name="discoverySpi">
         <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi">
             <!-- Initial local port to listen to. -->
-            <property name="localPort" value="47500"/>
+            <property name="discoPort" value="47500"/>
 
             <!-- Changing local port range. This is an optional action. -->
             <!--property name="localPortRange" value="20"/-->
@@ -74,7 +74,7 @@
     -->
     <property name="communicationSpi">
         <bean class="org.apache.ignite.spi.communication.tcp.TcpCommunicationSpi">
-            <property name="localPort" value="47100"/>
+            <property name="commPort" value="47100"/>
         </bean>
     </property>
 </bean>
