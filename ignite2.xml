@@ -13,7 +13,7 @@
     <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi">
       <property name="ipFinder">
          <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.kubernetes.TcpDiscoveryKubernetesIpFinder">
-           <property name="namespace" value="ignite2"/>
+           <property name="namespace" value="ignite"/>
          </bean>
       </property>
     </bean>
