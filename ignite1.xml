@@ -40,9 +40,36 @@
   <property name="discoverySpi">
     <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi">
       <property name="ipFinder">
-        <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.kubernetes.TcpDiscoveryKubernetesIpFinder"/>
+        <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.vm.TcpDiscoveryVmIpFinder">
+          <property name="addresses">
+            <list>
+              <value>10.3.95.35</value>
+              <value>10.3.95.67</value>
+              <value>10.3.95.162</value>
+              <value>10.3.95.118</value>
+              <value>10.3.95.101</value>
+              <value>10.3.95.155</value>
+              <value>10.3.95.26</value>
+              <value>10.3.95.218</value>
+              <value>10.3.95.217</value>
+              <value>10.3.95.120</value>
+              <value>10.3.95.13</value>
+              <value>10.3.95.218</value>
+              <value>10.3.95.65</value>
+              <value>10.3.95.128</value>
+              <value>10.3.95.251</value>
+              <value>10.3.95.121</value>
+              <value>10.3.95.232</value>
+              <value>10.3.95.207</value>
+              <value>10.3.95.252</value>
+              <!-- 
+              IP Address and optional port range of a remote node.
+              You can also optionally specify an individual port.
+              -->
+            </list>
+          </property>
+        </bean>
       </property>
     </bean>
   </property>
 </bean>
-</beans>
