@@ -37,14 +37,15 @@
         http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
  <bean class="org.apache.ignite.configuration.IgniteConfiguration">
-       <property name="discoverySpi">
+      <property name="discoverySpi">
         <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi">
             <property name="ipFinder">
                 <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.multicast.TcpDiscoveryMulticastIpFinder">
-                    <property name="addesses" value="127.0.0.1"> 
+                    <property name="multicastGroup" value="228.10.10.157"/>
                 </bean>
             </property>
         </bean>
     </property>
-  </bean>
+
+</bean>
 </beans>
