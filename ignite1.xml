@@ -40,7 +40,7 @@
   <property name="discoverySpi">
     <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi">
       <property name="ipFinder">
-        <bean class=”org.apache.ignite.spi.discovery.tcp.ipfinder.vm.TcpDiscoveryVmIpFinder">
+        <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.vm.TcpDiscoveryVmIpFinder">
           <property name="addresses">
             <list>
               <value>10.3.95.33:47500..47509</value>
