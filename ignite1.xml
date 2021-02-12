@@ -41,7 +41,7 @@
         <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi">
             <property name="ipFinder">
                 <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.multicast.TcpDiscoveryMulticastIpFinder">
-                    <property name="multicastGroup" value="228.10.10.157"/>
+                    <property name="addresses" value="127.0.0.1"/>
                 </bean>
             </property>
         </bean>
