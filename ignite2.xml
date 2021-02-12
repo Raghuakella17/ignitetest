@@ -39,7 +39,7 @@
                         <constructor-arg>
                             <bean class="org.apache.ignite.kubernetes.configuration.KubernetesConnectionConfiguration">
                                 <!-- Assumed that you have RBAC configured and `ignite` namespace created for it. -->
-                                <property name="namespace" value="ignite1" />
+                                <property name="namespace" value="ignite2" />
                             </bean>
                         </constructor-arg>
                     </bean>
