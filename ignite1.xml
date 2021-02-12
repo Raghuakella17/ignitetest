@@ -72,4 +72,5 @@
       </property>
     </bean>
   </property>
-</bean>
+ </bean>  
+</beans
