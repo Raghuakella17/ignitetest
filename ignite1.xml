@@ -49,7 +49,7 @@
                               operate normally even if there is no more nodes in the cluster.
                               You can also optionally specify an individual port or port range.
                               -->
-                            <value>127.0.0.1</value>
+                            <value>10.3.95.33</value>
                             <!--
                               IP Address and optional port range of a remote node.
                               You can also optionally specify an individual port.
