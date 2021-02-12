@@ -37,15 +37,18 @@
         http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
  <bean class="org.apache.ignite.configuration.IgniteConfiguration">
-      <property name="discoverySpi">
-        <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi">
-            <property name="ipFinder">
-                <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.multicast.TcpDiscoveryMulticastIpFinder">
-                    <property name="addresses" value="127.0.0.1"/>
-                </bean>
-            </property>
+  <property name="discoverySpi">
+    <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi">
+      <property name="ipFinder">
+        <bean class=”org.apache.ignite.spi.discovery.tcp.ipfinder.vm.TcpDiscoveryVmIpFinder">
+          <property name="addresses">
+            <list>
+              <value>10.3.95.33:47500..47509</value>
+            </list>
+          </property>
         </bean>
-    </property>
-
+      </property>
+    </bean>
+  </property>
 </bean>
 </beans>
