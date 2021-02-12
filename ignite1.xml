@@ -7,9 +7,7 @@
   The ASF licenses this file to You under the Apache License, Version 2.0
   (the "License"); you may not use this file except in compliance with
   the License.  You may obtain a copy of the License at
-
        http://www.apache.org/licenses/LICENSE-2.0
-
   Unless required by applicable law or agreed to in writing, software
   distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -19,15 +17,11 @@
 
 <!--
     Ignite Spring configuration file to startup Ignite cache.
-
     This file demonstrates how to configure cache using Spring. Provided cache
     will be created on node startup.
-
     Use this configuration file when running HTTP REST examples (see 'examples/rest' folder).
-
     When starting a standalone node, you need to execute the following command:
     {IGNITE_HOME}/bin/ignite.{bat|sh} examples/config/example-cache.xml
-
     When starting Ignite from Java IDE, pass path to this file to Ignition:
     Ignition.start("examples/config/example-cache.xml");
 -->
@@ -43,29 +37,26 @@
         <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.vm.TcpDiscoveryVmIpFinder">
           <property name="addresses">
             <list>
-                 <value>127.0.0.1</value>
-                 <value>10.3.95.35</value>
-                 <value>10.3.95.67</value>
-                 <value>10.3.95.162</value>
-                 <value>10.3.95.118</value>
-                 <value>10.3.95.101</value>
-                 <value>10.3.95.155</value>
-                 <value>10.3.95.26</value>
-                 <value>10.3.95.218</value>
-                 <value>10.3.95.217</value>
-                 <value>10.3.95.120</value>
-                 <value>10.3.95.13</value>
-                 <value>10.3.95.99</value>
-                 <value>10.3.95.243</value>
-                 <value>10.3.95.18</value>
-                 <value>10.3.95.113</value>
-                 <value>10.3.95.65</value>
-                 <value>10.3.95.128</value>
-                 <value>10.3.95.251</value>
-                 <value>10.3.95.121</value>
-                 <value>10.3.95.232</value>
-                 <value>10.3.95.207</value>
-                 <value>10.3.95.252</value>
+              <value>127.0.0.1</value>
+              <value>10.3.95.35</value>
+              <value>10.3.95.67</value>
+              <value>10.3.95.162</value>
+              <value>10.3.95.118</value>
+              <value>10.3.95.101</value>
+              <value>10.3.95.155</value>
+              <value>10.3.95.26</value>
+              <value>10.3.95.218</value>
+              <value>10.3.95.217</value>
+              <value>10.3.95.120</value>
+              <value>10.3.95.13</value>
+              <value>10.3.95.218</value>
+              <value>10.3.95.65</value>
+              <value>10.3.95.128</value>
+              <value>10.3.95.251</value>
+              <value>10.3.95.121</value>
+              <value>10.3.95.232</value>
+              <value>10.3.95.207</value>
+              <value>10.3.95.252</value>
               <!-- 
               IP Address and optional port range of a remote node.
               You can also optionally specify an individual port.
@@ -76,5 +67,5 @@
       </property>
     </bean>
   </property>
- </bean>
+ </bean>  
 </beans>
