@@ -43,17 +43,7 @@
                 <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.vm.TcpDiscoveryVmIpFinder">
                     <property name="addresses">
                         <list>
-                            <!--
-                              Explicitly specifying address of a local node to let it start and
-                              operate normally even if there is no more nodes in the cluster.
-                              You can also optionally specify an individual port or port range.
-                              -->
-                            <value>127.0.0.1</value>
-                            <!--
-                              IP Address and optional port range of a remote node.
-                              You can also optionally specify an individual port.
-                              -->
-                            <value>127.0.0.1:47500..47509</value>
+                            <value>127.0.0.1:8080</value>
                         </list>
                     </property>
                 </bean>
