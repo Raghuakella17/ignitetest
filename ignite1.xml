@@ -64,6 +64,28 @@
                             <list>
                                 <!-- In distributed environment, replace with actual host IP address. -->
                                 <value>127.0.0.1:47500..47509</value>
+                                <value>10.3.90.97</value>
+                                <value>10.3.90.5</value>
+                                <value>10.3.90.53</value> 
+                                <value>10.3.90.180</value>
+                                <value>10.3.90.43</value>
+                                <value>10.3.90.106</value>
+                                <value>10.3.90.169</value>
+                                <value>10.3.90.239</value>
+                                <value>10.3.90.254</value>
+                                <value>10.3.90.174</value>
+                                <value>10.3.90.157</value>
+                                <value>10.3.90.80</value>
+                                <value>10.3.90.135</value>
+                                <value>10.3.90.36</value>
+                                <value>10.3.90.212</value>
+                                <value>10.3.90.219</value>
+                                <value>10.3.90.105</value> 
+                                <value>10.3.90.185</value>
+                                <value>10.3.90.217</value> 
+                                <value>10.3.90.175</value>
+                                <value>10.3.90.206</value>
+                                <value>10.3.90.29</value>
                             </list>
                         </property>
                     </bean>
